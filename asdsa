@@ -301,13 +301,13 @@ function Library:CreateTab(name)
     
     Title.Name = "Title"
     Title.Parent = NameTabButton
-    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundColor3 = Color3.fromRGB(0,0,0)
     Title.BackgroundTransparency = 1.000
     Title.Size = UDim2.new(1, 0, 1, 0)
     Title.ZIndex = 2
     Title.Font = Library.Theme.TextFont
     Title.Text =  name
-    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextColor3 = Color3.fromRGB(0,0,0)
     Title.TextSize = 15.000
 
     SectionLayout.Name = "SectionLayout"
